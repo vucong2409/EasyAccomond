@@ -1,4 +1,4 @@
-# client
+# :house_with_garden: Web interface for Easy Accomod  
 
 ## Project setup
 ```
