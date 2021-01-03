@@ -1,7 +1,7 @@
 <template>
 <div class="h-100 p-3 mx-auto">
-  <section class="h-100 p-3 mx-auto">
-    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+  <section class="h-100 mx-auto">
+    <div class="cover-container d-flex h-100 pb-3 mx-auto flex-column">
       <header class="masthead mb-auto w-100"> 
         <NavBar /> 
       </header>
@@ -14,6 +14,23 @@
         <p> Created by <a href="https://twitter.com/vucong24092001" class="text-white"> @vucong2409 </a> </p>
       </footer>
     </div>
+  </section>
+
+  <section class="h-100 p-3 mx-auto">
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto w-100">
+      </header>
+      <main class="px-3">
+        <div data-aos="zoom-in">
+          <p> For programmer </p>
+        </div>
+      </main>
+      <footer class="mt-auto">
+      </footer>
+    </div>
+  </section>
+
+  <section class="h-100 p-3 mx-auto">
   </section>
 </div>
 </template>

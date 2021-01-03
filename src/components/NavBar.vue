@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b-navbar type="dark">
+        <b-navbar type="dark" class="fixed-top">
             <b-navbar-brand href="#" class="float-left">EasyAccomond</b-navbar-brand>
 
             <b-navbar-nav class="mr-5">
