@@ -12,13 +12,13 @@
       </main>
 
       <footer class="mt-auto">
-        <p> Created by <a href="https://twitter.com/vucong24092001" class="text-white"> @vucong2409 </a> </p>
+        <p> Created by <a href= "https://twitter.com/vucong24092001" class="text-white"> @vucong2409 </a> </p>
       </footer>
     </div>
   </section>
 
   <section class="h-100 py-3 mx-auto second-pane" >
-    <div class=" d-flex mx-5 h-100 py-5 mx-auto flex-column plan-container">
+    <div class="d-flex mx-5 h-100 py-5 mx-auto flex-column">
       <header class="masthead mb-auto w-100">
         <h3 class="section-header"> Choose your plan </h3>
       </header>
@@ -59,7 +59,50 @@
     </div>
   </section>
 
-  <section class="h-100 p-3 mx-auto">
+  <section class="h-100 py-3 mx-auto third-pane">
+    <div class="d-flex px-5 h-100 py-5 mx-auto flex-column plan-container">
+      <header class="masthead mb-auto w-100">
+      </header>
+
+      <main class="px-3 d-flex justify-content-center">
+      </main>
+
+      <footer class="mt-auto">
+      </footer>
+    </div>
+  </section>
+
+  <section class="py-3 mx-auto sponsor bg-white text-dark">
+    <header class="w-100 mb-auto">
+      <h1> Our Partner </h1>
+    </header>
+  </section>
+
+  <section class="py-3 mx-auto footer text-white">
+    <main class="footer d-flex my-5 px-3 justify-content-center">
+      <div class="container text-left px-5"> 
+        <h5> EzyAccomond </h5>
+        <p class="footer-text pb-3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum incidunt architecto soluta laboriosam, perspiciatis, aspernatur officiis esse. </p>
+        <p class="footer-text pb-3 contact"> <b-icon-facebook class="mr-2 contact mx-1"> </b-icon-facebook> facebook.com/ezacommond </p>
+        <p class="footer-text pb-3 contact"> <b-icon-twitter class="mr-2 contact mx-1"> </b-icon-twitter> twitter.com/ezacommond </p>
+      </div>
+      
+      <div class="container text-left px-5">
+        <h5> Navigation </h5>
+      </div>
+
+      <div class="container text-left px-5">
+        <h5> Top house monthly </h5>
+      </div>
+
+      <div class="container text-left px-5">
+        <h5> Newletters </h5>
+        <p class="footer-text pb-2"> Sign Up for Our Newsletter to get Latest Updates and Offers. <br/> Subscribe to receive news in your inbox. </p> 
+        <input type="email" squared class="p-1 bg-dark text-white newletter" placeholder="Enter your email" />
+        <b-button squared class="newletter-button text-white mt-3">SUBSCRIBE</b-button>
+      </div>
+
+    </main>
   </section>
 </div>
 </template>
@@ -76,7 +119,42 @@ export default {
 </script>
 
 <style scoped>
+  .newletter-button {
+    background-color: royalblue;
+    width: 93%;
+  }
+  .newletter {
+    font-size: 20px;
+    border-radius: 0 !important;
+    border-color: white;
+    border-width: 0;
+    width: 93%;
+  }
+  h5::after {
+    display: block;
+    height: 4px;
+    background-color: #274abb;
+    width: 50px;
+    content: "";
+    margin-top: 0.7rem;
+    margin-bottom: 1.5rem;
+  }
+  .contact {
+    margin-bottom: 0px !important;
+  } 
+  .footer-text {
+    font-size: 16px !important;
+  }
   
+  .footer {
+    height: 31vh !important;
+    background: #232733;
+    font-size: 20px;
+  }
+
+  .sponsor {
+    height: 30vh !important;
+  }
   .content {
     font-size: 20px;
   }
@@ -112,6 +190,5 @@ export default {
     background: white;
     color: black;
   }
-
 
 </style>
