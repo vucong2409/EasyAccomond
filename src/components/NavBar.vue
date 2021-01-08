@@ -9,7 +9,7 @@
             </b-navbar-nav>
 
             <b-navbar-nav class="ml-auto">
-                <b-nav-item href="#">Sign in</b-nav-item>
+                <b-nav-item ><router-link to="login" class="text-nav"> Login </router-link></b-nav-item>
                 <b-nav-item href="#">Sign up</b-nav-item>
                 <b-nav-item href="#">Get started</b-nav-item>
             </b-navbar-nav>
@@ -32,6 +32,9 @@ export default {
 <style scoped>
     .nav-masterhead .nav-link {
         padding: .25rem 0;
+    }
+    .text-nav {
+        color: rgba(255,255,255,.5) !important;
     }
     
 </style>

@@ -81,7 +81,7 @@
   <section class="py-3 mx-auto footer text-white">
     <main class="footer d-flex my-5 px-3 justify-content-center">
       <div class="container text-left px-5"> 
-        <h5> EzyAccomond </h5>
+        <h5> Ezy Accomond </h5>
         <p class="footer-text pb-3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum incidunt architecto soluta laboriosam, perspiciatis, aspernatur officiis esse. </p>
         <p class="footer-text pb-3 contact"> <b-icon-facebook class="mr-2 contact mx-1"> </b-icon-facebook> facebook.com/ezacommond </p>
         <p class="footer-text pb-3 contact"> <b-icon-twitter class="mr-2 contact mx-1"> </b-icon-twitter> twitter.com/ezacommond </p>
@@ -98,7 +98,7 @@
       <div class="container text-left px-5">
         <h5> Newletters </h5>
         <p class="footer-text pb-2"> Sign Up for Our Newsletter to get Latest Updates and Offers. <br/> Subscribe to receive news in your inbox. </p> 
-        <input type="email" squared class="p-1 bg-dark text-white newletter" placeholder="Enter your email" />
+        <input type="email" squared class="p-2 bg-dark text-white newletter" placeholder="Enter your email" />
         <b-button squared class="newletter-button text-white mt-3">SUBSCRIBE</b-button>
       </div>
 
@@ -124,7 +124,7 @@ export default {
     width: 93%;
   }
   .newletter {
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 0 !important;
     border-color: white;
     border-width: 0;
