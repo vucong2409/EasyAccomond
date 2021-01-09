@@ -23,7 +23,24 @@
                 </b-tab>
 
                 <b-tab title="Sign up" class="p-5">
-                    <div class="">
+                    <div class="w-100 h-100 d-flex flex-column">
+                        <header class="mb-auto w-100">
+                            <h1 class="mb-4">Sign up</h1>
+                        </header>
+
+                        <main class="d-flex flex-column mb-5 justify-content-center">
+                            <b-form-input class="mx-auto w-75 my-2 shadow login-input" placeholder="Firstname"></b-form-input>
+                            <b-form-input class="mx-auto w-75 my-2 shadow login-input" placeholder="Lastname"></b-form-input>
+                            <b-form-input class="mx-auto w-75 my-2 shadow login-input" placeholder="Username"></b-form-input>
+                            <b-form-input class="mx-auto w-75 my-2 shadow login-input" type="password" placeholder="Password"></b-form-input>
+                            <b-form-input class="mx-auto w-75 my-2 shadow login-input" placeholder="Email"></b-form-input>
+                            <b-button squared class="shadow w-50 mx-auto mt-4" variant="success">Sign up</b-button>
+                        </main>
+
+                        <footer class="mt-auto w-100 d-flex justify-content-left">
+                            <router-link to="/"><b-icon-arrow-left></b-icon-arrow-left><small class="text-dark"> Back to home </small></router-link>
+                        </footer>
+                        
                     </div>
                 </b-tab>
             </b-tabs>
